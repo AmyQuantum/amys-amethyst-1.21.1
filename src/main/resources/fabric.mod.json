@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "amythest",
+	"version": "${version}",
+	"name": "Amy's Amethyst",
+	"description": "More amethyst!",
+	"authors": [
+		"Amythest"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/amythest/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.amy.amythest.AmysAmethyst"
+		],
+		"client": [
+			"net.amy.amythest.AmysAmethystClient"
+		],
+		"fabric-datagen": [
+			"net.amy.amythest.AmysAmethystDataGenerator"
+		]
+	},
+	"mixins": [
+		"amythest.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
