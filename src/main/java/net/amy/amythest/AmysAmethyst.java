@@ -1,5 +1,6 @@
 package net.amy.amythest;
 
+import net.amy.amythest.block.ModBlocks;
 import net.amy.amythest.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,6 +14,7 @@ public class AmysAmethyst implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }
