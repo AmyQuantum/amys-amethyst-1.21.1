@@ -21,6 +21,8 @@ public class ModItems {
 
     public static final Item AMETHYST_ARROW = registerItem("amethyst_arrow", new AmethystArrowItem(new Item.Settings()));
 
+    public static final Item AMETHYST_TRIDENT = registerItem("amethyst_trident", new AmethystTridentItem(new Item.Settings()));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(AmysAmethyst.MOD_ID, name), item);
     }
