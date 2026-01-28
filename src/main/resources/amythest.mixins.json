@@ -5,10 +5,11 @@
 	"mixins": [
 		"ExampleMixin"
 	],
+	"client": [
+		"ItemRendererMixin",
+		"ModelLoaderMixin"
+	],
 	"injectors": {
 		"defaultRequire": 1
-	},
-	"overwrites": {
-		"requireAnnotations": true
 	}
 }
