@@ -2,8 +2,7 @@
     "parent": "minecraft:builtin/entity",
     "gui_light": "front",
     "textures": {
-        "particle": "amythest:entity/amethyst_trident",
-        "layer0": "amythest:item/amethyst_trident"
+        "particle": "amythest:entity/amethyst_trident"
     },
     "display": {
         "thirdperson_righthand": {
@@ -41,5 +40,13 @@
             "translation": [ 4, 4, 2],
             "scale":[ 0.25, 0.25, 0.25]
         }
-    }
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "throwing": 1
+            },
+            "model": "amethyst:item/amethyst_trident_throwing"
+        }
+    ]
 }

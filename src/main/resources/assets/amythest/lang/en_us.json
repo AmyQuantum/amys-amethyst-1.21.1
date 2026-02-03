@@ -1,5 +1,17 @@
 {
   "item.amythest.amethyst_arrow": "Amethyst Arrow",
   "item.amythest.amethyst_dust": "Amethyst Dust",
-  "item.amythest.amethyst_trident": "Amethyst Trident"
+  "item.amythest.amethyst_soup": "Amethyst Soup",
+  "item.amythest.amethyst_trident": "Amethyst Trident",
+  
+  "effect.amythest.crystallisation": "Crystallisation",
+
+  "entity.amythest.amethyst_arrow": "Amethyst Arrow",
+  "entity.amythest.amethyst_trident": "Amethyst Trident",
+
+  "tooltip.amysamethyst.amethyst_arrow.tooltip": "§cCrystallisation (00:30)",
+  "tooltip.amysamethyst.amethyst_soup.tooltip": "§cCrystallisation (00:10)",
+
+  "advancements.adventure.throw_amethyst_trident.description": "Throw an Amethyst Trident at something.\nNote: Throwing away your only weapon is still not a good idea.",
+  "advancements.adventure.throw_amethyst_trident.title": "A Shiny Throwaway Joke"
 }

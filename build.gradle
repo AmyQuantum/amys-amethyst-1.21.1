@@ -32,6 +32,32 @@ dependencies {
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+
+	repositories {
+		maven {
+			// location of the maven that hosts JEI files since January 2023
+			name = "Jared's maven"
+			url = "https://maven.blamejared.com/"
+		}
+		maven {
+			// location of a maven mirror for JEI files, as a fallback
+			name = "ModMaven"
+			url = "https://modmaven.dev"
+		}
+	}
+
+	repositories {
+		maven {
+			// location of the maven that hosts JEI files since January 2023
+			name = "Jared's maven"
+			url = "https://maven.blamejared.com/"
+		}
+		maven {
+			// location of a maven mirror for JEI files, as a fallback
+			name = "ModMaven"
+			url = "https://amymialee.dev"
+		}
+	}
 	
 }
 

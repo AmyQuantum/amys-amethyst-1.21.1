@@ -9,10 +9,14 @@ import net.minecraft.item.ArrowItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.SpectralArrowItem;
+import net.minecraft.item.tooltip.TooltipType;
+import net.minecraft.text.Text;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.Position;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 public class AmethystArrowItem extends ArrowItem {
 	public AmethystArrowItem(Item.Settings settings) {
@@ -30,6 +34,12 @@ public class AmethystArrowItem extends ArrowItem {
 		amethystArrowEntity.pickupType = PersistentProjectileEntity.PickupPermission.ALLOWED;
 		return amethystArrowEntity;
 		
+	}
+
+	@Override
+	public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+		tooltip.add(Text.translatable("tooltip.amysamethyst.amethyst_arrow.tooltip"));
+		super.appendTooltip(stack, context, tooltip, type);
 	}
 }
 

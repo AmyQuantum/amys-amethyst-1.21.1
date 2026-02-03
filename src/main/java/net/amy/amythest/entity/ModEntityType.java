@@ -40,5 +40,10 @@ public class ModEntityType {
         return Registry.register(Registries.ENTITY_TYPE, Identifier.of(AmysAmethyst.MOD_ID, name), type.build(name));
     }
 
-
+    public static void registerModEntityType() {
+        AmysAmethyst.LOGGER.info("Registering Mod Effects for " + AmysAmethyst.MOD_ID);
+    }
 }
+
+
+

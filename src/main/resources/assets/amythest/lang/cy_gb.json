@@ -1,5 +1,17 @@
 {
-  "item.amythest.amethyst_dust": "Llywch Amethyst",
   "item.amythest.amethyst_arrow": "Seath Amethyst",
-  "item.amythest.amethyst_trident": "Tryfer Amethyst"
+  "item.amythest.amethyst_dust": "Llywch Amethyst",
+  "item.amythest.amethyst_soup": "Cawl Amethyst",
+  "item.amythest.amethyst_trident": "Tryfer Amethyst",
+
+  "effect.amythest.crystallisation": "Crystallisation",
+
+  "entity.amythest.amethyst_arrow": "Seath Amethyst",
+  "entity.amythest.amethyst_trident": "Tryfer Amethyst",
+
+  "tooltip.amysamethyst.amethyst_arrow.tooltip": "§cCrisialeiddiad (00:30)",
+  "tooltip.amysamethyst.amethyst_soup.tooltip": "§cCrisialeiddiad (00:30)",
+
+  "advancements.adventure.throw_amethyst_trident.description": "Taflwch Tryfer Amethyst at rywbeth.\nNoder: Nid yn taflu eich unig arf un beth syniad da.",
+  "advancements.adventure.throw_amethyst_trident.title": "joc taflydwy gloywlyd "
 }

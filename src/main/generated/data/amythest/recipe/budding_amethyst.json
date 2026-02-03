@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_cluster"
+    },
+    "B": {
+      "item": "minecraft:smooth_basalt"
+    },
+    "C": {
+      "item": "minecraft:calcite"
+    }
+  },
+  "pattern": [
+    "BCB",
+    "CAC",
+    "BCB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:budding_amethyst"
+  }
+}

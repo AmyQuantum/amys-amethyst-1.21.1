@@ -1,5 +1,6 @@
 package net.amy.amythest.entity.projectile;
 
+import net.amy.amythest.effect.ModEffects;
 import net.amy.amythest.entity.ModEntityType;
 import net.amy.amythest.item.ModItems;
 import net.minecraft.entity.EntityType;
@@ -43,7 +44,7 @@ public class AmethystArrowEntity extends PersistentProjectileEntity {
 	@Override
 	protected void onHit(LivingEntity target) {
 		super.onHit(target);
-		StatusEffectInstance statusEffectInstance = new StatusEffectInstance(StatusEffects.POISON, this.duration, 1);
+		StatusEffectInstance statusEffectInstance = new StatusEffectInstance(ModEffects.CRYSTALLISATION, this.duration, 1);
 		target.addStatusEffect(statusEffectInstance, this.getEffectCause());
 	}
 

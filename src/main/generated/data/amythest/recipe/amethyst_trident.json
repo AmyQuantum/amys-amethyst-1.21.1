@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "amythest:amethyst_dust"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "pattern": [
+    " AA",
+    " NA",
+    "N  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "amythest:amethyst_trident"
+  }
+}

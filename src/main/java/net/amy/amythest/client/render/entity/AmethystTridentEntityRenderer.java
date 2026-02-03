@@ -5,6 +5,8 @@ import net.amy.amythest.client.render.entity.model.AmethystTridentEntityModel;
 import net.amy.amythest.entity.projectile.AmethystTridentEntity;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
+import net.fabricmc.fabric.api.client.rendering.v1.BuiltinItemRendererRegistry;
+import net.fabricmc.fabric.api.resource.SimpleSynchronousResourceReloadListener;
 import net.minecraft.client.render.OverlayTexture;
 import net.minecraft.client.render.VertexConsumer;
 import net.minecraft.client.render.VertexConsumerProvider;
@@ -44,3 +46,4 @@ public class AmethystTridentEntityRenderer extends EntityRenderer<AmethystTriden
 		return TEXTURE;
 	}
 }
+

@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:adventure/throw_trident",
+  "criteria": {
+    "shot_amethyst_trident": {
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "amythest:amethyst_trident"
+            },
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft:is_projectile"
+              }
+            ]
+          }
+        }
+      },
+      "trigger": "minecraft:player_hurt_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.throw_amethyst_trident.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "amythest:amethyst_trident"
+    },
+    "title": {
+      "translate": "advancements.adventure.throw_amethyst_trident.title"
+    }
+  },
+  "requirements": [
+    [
+      "shot_amethyst_trident"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

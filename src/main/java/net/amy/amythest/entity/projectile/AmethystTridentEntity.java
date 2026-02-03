@@ -3,6 +3,7 @@ package net.amy.amythest.entity.projectile;
 import net.amy.amythest.entity.ModEntityType;
 import net.amy.amythest.item.AmethystTridentItem;
 import net.amy.amythest.item.ModItems;
+import net.minecraft.client.util.ModelIdentifier;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;

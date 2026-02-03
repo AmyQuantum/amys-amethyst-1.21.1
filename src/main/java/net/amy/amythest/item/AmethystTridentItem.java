@@ -40,11 +40,11 @@ public class AmethystTridentItem extends Item implements ProjectileItem {
 	public static final int MIN_DRAW_DURATION = 10;
 	public static final float ATTACK_DAMAGE = 8.0F;
 	public static final float THROW_SPEED = 2.5F;
+	public static final int DURABILITY = 1500;
 
 	public AmethystTridentItem(Item.Settings settings) {
 		super(settings);
 	}
-
 	public static AttributeModifiersComponent createAttributeModifiers() {
 		return AttributeModifiersComponent.builder()
 			.add(
@@ -135,18 +135,19 @@ public class AmethystTridentItem extends Item implements ProjectileItem {
 	@Override
 	public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
 		ItemStack itemStack = user.getStackInHand(hand);
-		if (isAboutToBreak(itemStack)) {
-			return TypedActionResult.fail(itemStack);
-		} else if (EnchantmentHelper.getTridentSpinAttackStrength(itemStack, user) > 0.0F && !user.isTouchingWaterOrRain()) {
-			return TypedActionResult.fail(itemStack);
-		} else {
-			user.setCurrentHand(hand);
-			return TypedActionResult.consume(itemStack);
+		itemStack.isDamageable();
+		itemStack.isStackable();
+			if (isAboutToBreak(itemStack)) {
+				return TypedActionResult.fail(itemStack);
+			} else if (EnchantmentHelper.getTridentSpinAttackStrength(itemStack, user) > 0.0F && !user.isTouchingWaterOrRain()) {
+				return TypedActionResult.fail(itemStack);
+			} else {
+				user.setCurrentHand(hand);
+				return TypedActionResult.consume(itemStack);
 		}
 	}
 
-	private static boolean isAboutToBreak(ItemStack stack) {
-		return stack.getDamage() >= stack.getMaxDamage() - 10;
+	private static boolean isAboutToBreak(ItemStack stack) {return stack.getDamage() >= stack.getMaxDamage() - 1;
 	}
 
 	@Override
