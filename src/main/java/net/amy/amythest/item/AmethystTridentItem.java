@@ -49,7 +49,7 @@ public class AmethystTridentItem extends Item implements ProjectileItem {
 		return AttributeModifiersComponent.builder()
 			.add(
 				EntityAttributes.GENERIC_ATTACK_DAMAGE,
-				new EntityAttributeModifier(BASE_ATTACK_DAMAGE_MODIFIER_ID, 8.0, EntityAttributeModifier.Operation.ADD_VALUE),
+				new EntityAttributeModifier(BASE_ATTACK_DAMAGE_MODIFIER_ID, 11.0, EntityAttributeModifier.Operation.ADD_VALUE),
 				AttributeModifierSlot.MAINHAND
 			)
 			.add(

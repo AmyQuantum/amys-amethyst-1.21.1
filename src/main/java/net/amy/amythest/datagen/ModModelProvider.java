@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 
 import net.amy.amythest.item.ModItems;
 import net.minecraft.data.client.BlockStateModelGenerator;
+
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
 
@@ -18,5 +19,6 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+        itemModelGenerator.register(ModItems.AMETHYST_SCYTHE, Models.HANDHELD);
     }
 }
