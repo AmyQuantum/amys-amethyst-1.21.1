@@ -2,12 +2,13 @@ package net.amy.amythest.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
-import net.amy.amythest.item.ModItems;
 
-import net.minecraft.item.Items;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.registry.tag.ItemTags;
 
 import java.util.concurrent.CompletableFuture;
+
+import static net.amy.amythest.item.ModItems.*;
 
 
 public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
@@ -17,5 +18,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
+
+        getOrCreateTagBuilder(ItemTags.TRIDENT_ENCHANTABLE)
+                .add(AMETHYST_TRIDENT);
     }
 }

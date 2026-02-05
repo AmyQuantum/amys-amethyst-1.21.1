@@ -6,7 +6,8 @@
 		"ExampleMixin"
 	],
 	"client": [
-		"ItemRendererMixin"
+		"ItemRendererMixin",
+		"ModelLoaderMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
