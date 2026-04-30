@@ -1,4 +1,4 @@
-package net.amy.amythest.item;
+package net.amy.amythest.item.custom;
 
 import net.amy.amythest.entity.projectile.AmethystTridentEntity;
 import net.minecraft.block.BlockState;
@@ -12,14 +12,14 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.MovementType;
 import net.minecraft.entity.attribute.EntityAttributeModifier;
 import net.minecraft.entity.attribute.EntityAttributes;
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.projectile.PersistentProjectileEntity;
 import net.minecraft.entity.projectile.ProjectileEntity;
-import net.minecraft.entity.projectile.TridentEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ProjectileItem;
-import net.minecraft.item.TridentItem;
 import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvent;
@@ -32,9 +32,6 @@ import net.minecraft.util.math.*;
 import net.minecraft.world.World;
 
 import java.util.List;
-
-import static net.minecraft.item.Item.BASE_ATTACK_DAMAGE_MODIFIER_ID;
-import static net.minecraft.item.Item.BASE_ATTACK_SPEED_MODIFIER_ID;
 
 public class AmethystTridentItem extends Item implements ProjectileItem {
 	public static final int MIN_DRAW_DURATION = 10;
@@ -158,6 +155,13 @@ public class AmethystTridentItem extends Item implements ProjectileItem {
 	@Override
 	public void postDamageEntity(ItemStack stack, LivingEntity target, LivingEntity attacker) {
 		stack.damage(1, attacker, EquipmentSlot.MAINHAND);
+		StatusEffectInstance instance = new StatusEffectInstance(
+				StatusEffects.SLOW_FALLING, 120 * 20, 1, false, true, true
+		);
+
+
+
+		target.addStatusEffect(instance);
 	}
 
 	@Override

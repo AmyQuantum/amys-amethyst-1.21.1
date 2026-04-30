@@ -1,2 +1,10 @@
-// 1.21.1	2026-02-04T23:54:47.796336	Amy's Amethyst/Tags for minecraft:item
+// 1.21.1	2026-04-30T19:32:25.8498045	Amy's Amethyst/Tags for minecraft:item
+ffc6eefbd3c70e3fab0bae893dd27039e300c75a data\minecraft\tags\item\enchantable\mining.json
+d10ec949f74eb3f6b08c9cc6ed00f898ff8b0094 data\minecraft\tags\item\shovels.json
 5488022d5d1ced10f5ea2014289be9a6929237cd data\minecraft\tags\item\enchantable\trident.json
+f6b72f1d0e47c601675725c7908b12bd04c66994 data\minecraft\tags\item\enchantable\sword.json
+14d6659d3dad7f07887b3354379f5f114f923e66 data\minecraft\tags\item\pickaxes.json
+15fc0c51b6ca1d2be3be4973bd7a72e5571fd86b data\minecraft\tags\item\hoes.json
+702900df9599d45b203db1bf3457036889e2bffa data\minecraft\tags\item\axes.json
+1996239c6736c35361c27802e4ea03c0a90b0642 data\minecraft\tags\item\swords.json
+73cd3207d4343ca5a86d6cf292e8717c689f050f data\minecraft\tags\item\trimmable_armor.json

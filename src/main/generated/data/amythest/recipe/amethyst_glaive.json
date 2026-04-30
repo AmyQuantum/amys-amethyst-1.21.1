@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_block"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "pattern": [
+    "  A",
+    " N ",
+    "N  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "amythest:amethyst_glaive"
+  }
+}

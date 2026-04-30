@@ -1,14 +1,12 @@
-package net.amy.amythest.item;
+package net.amy.amythest.item.custom;
 
 import net.amy.amythest.entity.projectile.AmethystArrowEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.projectile.PersistentProjectileEntity;
 import net.minecraft.entity.projectile.ProjectileEntity;
-import net.minecraft.entity.projectile.SpectralArrowEntity;
 import net.minecraft.item.ArrowItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.SpectralArrowItem;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.text.Text;
 import net.minecraft.util.math.Direction;

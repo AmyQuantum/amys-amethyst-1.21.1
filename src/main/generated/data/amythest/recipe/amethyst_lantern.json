@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "amythest:amethyst_torch"
+    },
+    "N": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    "NNN",
+    "NAN",
+    "NNN"
+  ],
+  "result": {
+    "count": 1,
+    "id": "amythest:amethyst_lantern"
+  }
+}

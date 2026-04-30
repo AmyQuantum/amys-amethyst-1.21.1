@@ -1,16 +1,14 @@
 package net.amy.amythest.enchantment;
 
 import net.amy.amythest.AmysAmethyst;
+
 import net.minecraft.component.EnchantmentEffectComponentTypes;
 import net.minecraft.component.type.AttributeModifierSlot;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentLevelBasedValue;
-import net.minecraft.enchantment.effect.EnchantmentEffectTarget;
-import net.minecraft.enchantment.effect.entity.DamageEntityEnchantmentEffect;
+
 import net.minecraft.enchantment.effect.value.AddEnchantmentEffect;
-import net.minecraft.entity.damage.DamageSources;
-import net.minecraft.entity.damage.DamageType;
-import net.minecraft.entity.damage.DamageTypes;
+
 import net.minecraft.loot.condition.EntityPropertiesLootCondition;
 import net.minecraft.loot.context.LootContext;
 import net.minecraft.predicate.entity.EntityPredicate;
@@ -21,13 +19,14 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.tag.EnchantmentTags;
 import net.minecraft.registry.tag.EntityTypeTags;
 import net.minecraft.registry.tag.ItemTags;
-import net.minecraft.server.command.EnchantCommand;
+
 import net.minecraft.util.Identifier;
 
 public class ModEnchantments {
 
     public static final RegistryKey<Enchantment> STRIKING =
             RegistryKey.of(RegistryKeys.ENCHANTMENT, Identifier.of(AmysAmethyst.MOD_ID, "striking"));
+
 
     public static void bootstrap(Registerable<Enchantment> registerable) {
         var enchantments = registerable.getRegistryLookup(RegistryKeys.ENCHANTMENT);
@@ -49,7 +48,11 @@ public class ModEnchantments {
                                 LootContext.EntityTarget.THIS, EntityPredicate.Builder.create().type(EntityTypePredicate.create(EntityTypeTags.SENSITIVE_TO_IMPALING)).build()
                         )
                 ));
+
+
     }
+
+
 
 
 

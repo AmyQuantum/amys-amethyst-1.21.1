@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "amythest:amethyst_dust"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " A ",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "amythest:amethyst_torch"
+  }
+}

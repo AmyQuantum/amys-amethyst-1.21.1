@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:amethyst_shard"
+  },
+  "base": {
+    "item": "minecraft:netherite_shovel"
+  },
+  "result": {
+    "count": 1,
+    "id": "amythest:amethyst_shovel"
+  },
+  "template": {
+    "item": "amythest:amethyst_upgrade_smithing_template"
+  }
+}

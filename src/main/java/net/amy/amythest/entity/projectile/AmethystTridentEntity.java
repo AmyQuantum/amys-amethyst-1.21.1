@@ -1,9 +1,7 @@
 package net.amy.amythest.entity.projectile;
 
 import net.amy.amythest.entity.ModEntityType;
-import net.amy.amythest.item.AmethystTridentItem;
 import net.amy.amythest.item.ModItems;
-import net.minecraft.client.util.ModelIdentifier;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
@@ -14,7 +12,6 @@ import net.minecraft.entity.data.TrackedData;
 import net.minecraft.entity.data.TrackedDataHandlerRegistry;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.projectile.PersistentProjectileEntity;
-import net.minecraft.entity.projectile.TridentEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.server.network.ServerPlayerEntity;

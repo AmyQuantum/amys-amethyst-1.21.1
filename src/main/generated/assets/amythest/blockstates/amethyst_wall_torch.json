@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "amythest:block/amethyst_wall_torch"
+    },
+    "facing=north": {
+      "model": "amythest:block/amethyst_wall_torch",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "amythest:block/amethyst_wall_torch",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "amythest:block/amethyst_wall_torch",
+      "y": 180
+    }
+  }
+}

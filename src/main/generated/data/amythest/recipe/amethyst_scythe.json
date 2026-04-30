@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "pattern": [
+    "AA ",
+    " N ",
+    " N "
+  ],
+  "result": {
+    "count": 1,
+    "id": "amythest:amethyst_scythe"
+  }
+}
