@@ -72,6 +72,9 @@ public abstract class ItemRendererMixin {
         if (stack.getItem() == AMETHYST_SCYTHE && (renderMode == ModelTransformationMode.GUI || renderMode == ModelTransformationMode.GROUND || renderMode == ModelTransformationMode.FIXED)) {
             return getModels().getModelManager().getModel(ModelIdentifier.ofInventoryVariant(Identifier.of(AmysAmethyst.MOD_ID, "amethyst_scythe")));
         }
+        if (stack.getItem() == AMETHYST_GLAIVE && (renderMode == ModelTransformationMode.GUI || renderMode == ModelTransformationMode.GROUND || renderMode == ModelTransformationMode.FIXED)) {
+            return getModels().getModelManager().getModel(ModelIdentifier.ofInventoryVariant(Identifier.of(AmysAmethyst.MOD_ID, "amethyst_glaive")));
+        }
 
         return bakedModel;
     }
@@ -85,9 +88,14 @@ public abstract class ItemRendererMixin {
         if (stack.getItem() == AMETHYST_SCYTHE) {
             return this.models.getModelManager().getModel(ModelIdentifier.ofInventoryVariant(Identifier.of(AmysAmethyst.MOD_ID, "amethyst_scythe_in_hand")));
         }
+        if (stack.getItem() == AMETHYST_GLAIVE) {
+            return this.models.getModelManager().getModel(ModelIdentifier.ofInventoryVariant(Identifier.of(AmysAmethyst.MOD_ID, "amethyst_glaive_in_hand")));
+        }
+
 
         return bakedModel;
     }
+
 }
 
 

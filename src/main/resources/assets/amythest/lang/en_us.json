@@ -2,16 +2,54 @@
   "item.amythest.amethyst_arrow": "Amethyst Arrow",
   "item.amythest.amethyst_dust": "Amethyst Dust",
   "item.amythest.amethyst_soup": "Amethyst Soup",
+  "item.amythest.cherry_fox_spawn_egg": "Cherry Fox Spawn Egg",
+
+  "item.amythest.amethyst_scythe": "Amethyst Scythe",
+  "item.amythest.amethyst_sword": "Amethyst Sword",
+  "item.amythest.amethyst_axe": "Amethyst Axe",
+  "item.amythest.amethyst_pickaxe": "Amethyst Pickaxe",
+  "item.amythest.amethyst_shovel": "Amethyst Shovel",
+  "item.amythest.amethyst_hoe": "Amethyst Hoe",
   "item.amythest.amethyst_trident": "Amethyst Trident",
+  "item.amythest.amethyst_glaive": "Amethyst Glaive",
+  "item.amythest.amethyst_shuriken": "Amethyst Shuriken",
+
+  "item.amythest.amethyst_helmet": "Amethyst Helmet",
+  "item.amythest.amethyst_chestplate": "Amethyst Chestplate",
+  "item.amythest.amethyst_leggings": "Amethyst Leggings",
+  "item.amythest.amethyst_boots": "Amethyst Boots",
+  "item.amythest.amethyst_horse_armor": "Amethyst Horse Armor",
+  "item.amythest.amethyst_upgrade_smithing_template": "Smithing Template",
+
+  "block.amythest.amethyst_infused_stone": "Amethyst Infused Stone",
+  "block.amythest.amethyst_infused_deepslate": "Amethyst Infused Deepslate",
+  "block.amythest.amethyst_bricks": "Amethyst Bricks",
+  "block.amythest.amethyst_slab": "Amethyst Slab",
+  "block.amythest.amethyst_stairs": "Amethyst Stairs",
+  "block.amythest.amethyst_brick_slab": "Amethyst Brick Slab",
+  "block.amythest.amethyst_brick_stairs": "Amethyst Brick Stairs",
+  "block.amythest.amethyst_lantern": "Amethyst Lantern",
+  "block.amythest.amethyst_torch": "Amethyst Torch",
   
   "effect.amythest.crystallisation": "Crystallisation",
 
   "entity.amythest.amethyst_arrow": "Amethyst Arrow",
   "entity.amythest.amethyst_trident": "Amethyst Trident",
+  "entity.amythest.cherry_fox": "Cherry Fox",
+  "entity.amythest.amethyst_shuriken": "Amethyst Shuriken",
 
   "tooltip.amysamethyst.amethyst_arrow.tooltip": "§cCrystallisation (00:30)",
   "tooltip.amysamethyst.amethyst_soup.tooltip": "§cCrystallisation (00:10)",
 
+  "itemgroup.amysamethyst.time_blades_items": "Amethyst",
+
   "advancements.adventure.throw_amethyst_trident.description": "Throw an Amethyst Trident at something.\nNote: Throwing away your only weapon is still not a good idea.",
-  "advancements.adventure.throw_amethyst_trident.title": "A Shiny Throwaway Joke"
+  "advancements.adventure.throw_amethyst_trident.title": "A Shiny Throwaway Joke",
+
+  "item.amythest.smithing_template_amethyst_upgrade.applies_to": "Netherite Equipment",
+  "item.amythest.smithing_template_amethyst_upgrade.ingredients": "Amethyst Shard",
+  "item.amythest.smithing_template_amethyst_upgrade.base_slot_description": "Add netherite armor, weapon, or tool",
+  "item.amythest.smithing_template_amethyst_upgrade.additions_slot_description": "Add Amethyst Shard",
+  "upgrade.amythest.amethyst_upgrade": "Amethyst Upgrade"
+
 }
