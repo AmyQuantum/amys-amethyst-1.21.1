@@ -32,6 +32,7 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerLantern(ModBlocks.AMETHYST_LANTERN);
         blockStateModelGenerator.registerTorch(ModBlocks.AMETHYST_TORCH, ModBlocks.AMETHYST_WALL_TORCH);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AMETHYST_SAND);
 
     }
 

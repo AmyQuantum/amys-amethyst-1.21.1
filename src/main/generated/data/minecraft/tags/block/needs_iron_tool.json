@@ -1,7 +1,6 @@
 {
+  "replace": false,
   "values": [
-    "amythest:amethyst_lantern",
-    "amythest:amethyst_sand",
     "amythest:amethyst_infused_stone",
     "amythest:amethyst_infused_deepslate",
     "amythest:amethyst_bricks",

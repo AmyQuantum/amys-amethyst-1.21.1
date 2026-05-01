@@ -48,7 +48,7 @@ public class ModItems {
     //Tools
     public static final Item AMETHYST_SCYTHE = registerItem("amethyst_scythe",
             new ScytheItem(ModToolMaterials.AMETHYST, new Item.Settings()
-            .attributeModifiers(ScytheItem.createAttributeModifiers(ModToolMaterials.AMETHYST, 7, -2.6f, 0.7f))
+            .attributeModifiers(ScytheItem.createAttributeModifiers(ModToolMaterials.AMETHYST, 7, -3.0f, 0.7f))
                     .fireproof()
                     .rarity(Rarity.EPIC)));
 
@@ -65,31 +65,31 @@ public class ModItems {
 
     public static final Item AMETHYST_SWORD = registerItem("amethyst_sword",
             new SwordItem(ModToolMaterials.AMETHYST, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.AMETHYST, 5, -1.8f))
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.AMETHYST, 5, -2.4f))
                     .fireproof()
                     .rarity(Rarity.EPIC)));
 
     public static final Item AMETHYST_PICKAXE = registerItem("amethyst_pickaxe",
             new PickaxeItem(ModToolMaterials.AMETHYST, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.AMETHYST, 0, -2.6f))
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.AMETHYST, 0, -2.8f))
                     .fireproof()
                     .rarity(Rarity.EPIC)));
 
     public static final Item AMETHYST_AXE = registerItem("amethyst_axe",
             new AxeItem(ModToolMaterials.AMETHYST, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.AMETHYST, 6, -2.4f))
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.AMETHYST, 6, -3.0f))
                     .fireproof()
                     .rarity(Rarity.EPIC)));
 
     public static final Item AMETHYST_SHOVEL = registerItem("amethyst_shovel",
             new ShovelItem(ModToolMaterials.AMETHYST, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.AMETHYST, -2, -2.3f))
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.AMETHYST, -2, -3.0f))
                     .fireproof()
                     .rarity(Rarity.EPIC)));
 
     public static final Item AMETHYST_HOE = registerItem("amethyst_hoe",
             new HoeItem(ModToolMaterials.AMETHYST, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.AMETHYST, -3, -2.5f))
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.AMETHYST, -3, 0f))
                     .fireproof()
                     .rarity(Rarity.EPIC)));
 

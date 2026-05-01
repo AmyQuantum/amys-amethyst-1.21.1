@@ -50,6 +50,7 @@ public class ModItemGroups {
                       entries.add(ModBlocks.AMETHYST_BRICK_SLAB);
                       entries.add(ModBlocks.AMETHYST_LANTERN);
                       entries.add(ModBlocks.AMETHYST_TORCH);
+                      entries.add(ModBlocks.AMETHYST_SAND);
 
 
 

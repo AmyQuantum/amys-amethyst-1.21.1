@@ -17,10 +17,22 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
-            .add(ModBlocks.AMETHYST_BRICKS)
-            .add(ModBlocks.AMETHYST_INFUSED_STONE)
-            .add(ModBlocks.AMETHYST_INFUSED_DEEPSLATE)
-                .add(ModBlocks.AMETHYST_LANTERN);
+                .add(ModBlocks.AMETHYST_LANTERN)
+                .add(ModBlocks.AMETHYST_SAND)
+                .add(ModBlocks.AMETHYST_INFUSED_STONE)
+                .add(ModBlocks.AMETHYST_INFUSED_DEEPSLATE)
+                .add(ModBlocks.AMETHYST_BRICKS)
+                .add(ModBlocks.AMETHYST_BRICK_SLAB)
+                .add(ModBlocks.AMETHYST_BRICK_STAIRS);
+
+        getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.AMETHYST_INFUSED_STONE)
+                .add(ModBlocks.AMETHYST_INFUSED_DEEPSLATE)
+                .add(ModBlocks.AMETHYST_BRICKS)
+                .add(ModBlocks.AMETHYST_BRICK_SLAB)
+                .add(ModBlocks.AMETHYST_BRICK_STAIRS);
+
+
 
         getOrCreateTagBuilder(ModTags.Blocks.NEEDS_AMETHYST_TOOL);
                 //.addTag(BlockTags.NEEDS_IRON_TOOL);

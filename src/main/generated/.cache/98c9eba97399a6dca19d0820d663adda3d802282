@@ -1,7 +1,8 @@
-// 1.21.1	2026-04-30T19:32:25.8462905	Amy's Amethyst/Block Loot Tables
+// 1.21.1	2026-05-01T16:39:41.6193183	Amy's Amethyst/Block Loot Tables
 d251f7346e78296ec7056d104d3817c2bae87ff7 data\amythest\loot_table\blocks\amethyst_lantern.json
 c3afc6c4cbae2defee7484e034b70e9547c1d407 data\amythest\loot_table\blocks\amethyst_bricks.json
 2a220ec9e85a800c53d6675b88f58cf14dbc8efe data\amythest\loot_table\blocks\amethyst_infused_deepslate.json
+69c563d03bf48633b6797fb8724d8269b57c2c49 data\amythest\loot_table\blocks\amethyst_sand.json
 3eb41471561ca38419aec795bb93dc77055a9cb3 data\amythest\loot_table\blocks\amethyst_torch.json
 a77ac2c37c700af1dd149b148afeda591df41ff4 data\amythest\loot_table\blocks\amethyst_brick_slab.json
 446bb4f0194cf5c2db562c30bb812713974d906f data\amythest\loot_table\blocks\amethyst_infused_stone.json

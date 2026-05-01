@@ -33,6 +33,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.AMETHYST_INFUSED_DEEPSLATE, multipleOreDrops(ModBlocks.AMETHYST_INFUSED_DEEPSLATE, ModItems.AMETHYST_DUST, 3, 5));
         addDrop(ModBlocks.AMETHYST_LANTERN);
         addDrop(ModBlocks.AMETHYST_TORCH);
+        addDrop(ModBlocks.AMETHYST_SAND);
 
     }
     public LootTable.Builder multipleOreDrops(Block drop, Item item, float minDrops, float maxDrops) {

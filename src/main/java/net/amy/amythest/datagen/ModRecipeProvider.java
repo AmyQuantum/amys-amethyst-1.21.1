@@ -123,6 +123,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.AMETHYST_DUST), conditionsFromItem(ModItems.AMETHYST_DUST))
                 .offerTo(exporter);
 
+        offerCompactingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.AMETHYST_SAND, ModItems.AMETHYST_DUST);
+
 
 
 

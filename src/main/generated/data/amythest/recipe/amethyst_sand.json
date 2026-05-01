@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "amythest:amethyst_dust"
+    },
+    {
+      "item": "amythest:amethyst_dust"
+    },
+    {
+      "item": "amythest:amethyst_dust"
+    },
+    {
+      "item": "amythest:amethyst_dust"
+    },
+    {
+      "item": "amythest:amethyst_dust"
+    },
+    {
+      "item": "amythest:amethyst_dust"
+    },
+    {
+      "item": "amythest:amethyst_dust"
+    },
+    {
+      "item": "amythest:amethyst_dust"
+    },
+    {
+      "item": "amythest:amethyst_dust"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "amythest:amethyst_sand"
+  }
+}

@@ -5,6 +5,7 @@ import net.amy.amythest.particle.AmethystFlameParticle;
 import net.amy.amythest.particle.ModParticles;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
+import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -13,7 +14,9 @@ import net.minecraft.particle.ParticleTypes;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
+import net.minecraft.util.ColorCode;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
 
@@ -61,16 +64,16 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
     public static final Block AMETHYST_INFUSED_STONE = registerBlock("amethyst_infused_stone",
-            new Block(AbstractBlock.Settings.create()
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 6), (AbstractBlock.Settings.create()
                     .strength(4f)
                     .requiresTool()
-                    .sounds(BlockSoundGroup.STONE)));
+                    .sounds(BlockSoundGroup.STONE))));
 
     public static final Block AMETHYST_INFUSED_DEEPSLATE = registerBlock("amethyst_infused_deepslate",
-            new Block(AbstractBlock.Settings.create()
+            new ExperienceDroppingBlock(UniformIntProvider.create(3, 7), (AbstractBlock.Settings.create()
                     .strength(4f)
                     .requiresTool()
-                    .sounds(BlockSoundGroup.DEEPSLATE)));
+                    .sounds(BlockSoundGroup.DEEPSLATE))));
 
 
     public static final Block AMETHYST_BRICK_STAIRS = registerBlock("amethyst_brick_stairs",
@@ -87,4 +90,5 @@ public class ModBlocks {
     public static final Block AMETHYST_TORCH = registerBlock("amethyst_torch", new TorchBlock(ModParticles.AMETHYST_FLAME, AbstractBlock.Settings.create().sounds(BlockSoundGroup.SMALL_AMETHYST_BUD).luminance(state -> 15).breakInstantly().pistonBehavior(PistonBehavior.DESTROY)));
     public static final Block AMETHYST_WALL_TORCH = registerBlock("amethyst_wall_torch", new WallTorchBlock(ModParticles.AMETHYST_FLAME, AbstractBlock.Settings.create().noCollision().breakInstantly().luminance(state -> 15).sounds(BlockSoundGroup.SMALL_AMETHYST_BUD).dropsLike(AMETHYST_TORCH).pistonBehavior(PistonBehavior.DESTROY)));
 
+    public static final Block AMETHYST_SAND = registerBlock("amethyst_sand", new ColoredFallingBlock(new ColorCode(14406560), AbstractBlock.Settings.create().sounds(BlockSoundGroup.AMETHYST_BLOCK).instrument(NoteBlockInstrument.CHIME).strength(0.5f).requiresTool()));
 }

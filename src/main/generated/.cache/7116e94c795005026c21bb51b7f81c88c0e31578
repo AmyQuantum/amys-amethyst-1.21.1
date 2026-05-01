@@ -1,4 +1,4 @@
-// 1.21.1	2026-04-30T19:32:25.8477967	Amy's Amethyst/Recipes
+// 1.21.1	2026-05-01T16:39:41.6203184	Amy's Amethyst/Recipes
 c1ca505dd53959b0774096a3b637a8871c9498f3 data\amythest\advancement\recipes\misc\amethyst_trident.json
 581dce85786684adfe4398776f03bfde7f84520e data\amythest\recipe\amethyst_glaive.json
 f6f3f98ef0d0cc5b253ca44155c04a9f9c5316d9 data\amythest\recipe\amethyst_pickaxe_smithing.json
@@ -11,6 +11,7 @@ f058459eebcfef12926e848059c47a1dfd2da9b5 data\amythest\recipe\amethyst_lantern.j
 bc245d0c812ac42573848d837d23b830c80adfdf data\amythest\advancement\recipes\tools\amethyst_axe_smithing.json
 bee5ad97e56c14dbb664e59089fb52a1aea9154d data\amythest\recipe\amethyst_torch.json
 a0a9e56e5399267c048a90983c43318154f56830 data\amythest\advancement\recipes\misc\amethyst_torch.json
+47f20c49c6f871e9650daa009324a14dcd0ddb62 data\amythest\recipe\amethyst_sand.json
 cda2d84a50194d2d4b41c7a7e71a3dadd5359b80 data\amythest\recipe\amethyst_scythe.json
 a72600cc2c211b4fc2b12dfd4b9209f8e474b3c2 data\amythest\recipe\amethyst_helmet_smithing.json
 8b9a830acbc974006692fad334cba95681591330 data\amythest\advancement\recipes\misc\amethyst_scythe.json
@@ -27,6 +28,7 @@ d4ba3eae6e97e0bf5199f3fc9b278ca0011eed14 data\amythest\advancement\recipes\comba
 cb1835c1e9d42547e8539af7524292b1b4e45a95 data\amythest\advancement\recipes\misc\amethyst_lantern.json
 82a61d9e19ae2cd85c300223976395dd91ce5130 data\amythest\advancement\recipes\misc\amethyst_bricks_from_amethyst_block_stonecutting.json
 669cdecd3b0d0cce5a6a012fda19005f204eb416 data\amythest\recipe\amethyst_soup.json
+7f1fed03152b8b00e5ecda1c1a22ff3492641f5c data\amythest\advancement\recipes\building_blocks\amethyst_sand.json
 87d7efd2ab45f233ec768ef887f56658f64a458f data\amythest\recipe\budding_amethyst.json
 5db39d5304b32d231c70a22c1fb688165ddc76ed data\amythest\recipe\amethyst_leggings_smithing.json
 6326c8e0c8e2d43b2d8b837457532e1f3b71f231 data\amythest\recipe\amethyst_chestplate_smithing.json
