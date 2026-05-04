@@ -13,13 +13,6 @@
             "base": 2.5,
             "per_level_above_first": 2.5
           }
-        },
-        "requirements": {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type": "#minecraft:sensitive_to_impaling"
-          }
         }
       }
     ]
@@ -37,6 +30,6 @@
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#minecraft:enchantable/trident",
+  "supported_items": "#amythest:amethyst_trident_enchantable",
   "weight": 2
 }

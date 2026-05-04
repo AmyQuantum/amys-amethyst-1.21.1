@@ -6,6 +6,7 @@ import net.amy.amythest.entity.ModEntityType;
 import net.amy.amythest.item.custom.*;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.WallTorchBlock;
+import net.minecraft.component.DataComponentTypes;
 import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.recipe.Ingredient;
@@ -59,6 +60,7 @@ public class ModItems {
                     .rarity(Rarity.EPIC)));
 
     public static final Item AMETHYST_TRIDENT = registerItem("amethyst_trident", new AmethystTridentItem(new Item.Settings()
+            .attributeModifiers(TridentItem.createAttributeModifiers()).component(DataComponentTypes.TOOL, TridentItem.createToolComponent())
             .maxDamage(2404)
             .fireproof()
             .rarity(Rarity.EPIC)));

@@ -50,6 +50,12 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         offerSmithingTemplateCopyingRecipe(exporter, ModItems.AMETHYST_UPGRADE_SMITHING_TEMPLATE, Items.AMETHYST_BLOCK);
 
+        List<ItemConvertible> AMETHYST_SMELTABLES = List.of(ModBlocks.AMETHYST_INFUSED_STONE, ModBlocks.AMETHYST_INFUSED_DEEPSLATE);
+
+
+        offerSmelting(exporter, AMETHYST_SMELTABLES, RecipeCategory.MISC, ModItems.AMETHYST_DUST, 2.0f, 20, "amethyst_dust");
+        offerBlasting(exporter, AMETHYST_SMELTABLES, RecipeCategory.MISC, ModItems.AMETHYST_DUST, 2.0f, 20, "amethyst_dust");
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AMETHYST_TRIDENT)
                 .pattern(" AA")
                 .pattern(" NA")

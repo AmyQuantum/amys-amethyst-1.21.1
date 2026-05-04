@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_amethyst_infused_stone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "amythest:amethyst_infused_stone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "amythest:amethyst_dust_from_blasting_amethyst_infused_stone"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_amethyst_infused_stone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "amythest:amethyst_dust_from_blasting_amethyst_infused_stone"
+    ]
+  }
+}

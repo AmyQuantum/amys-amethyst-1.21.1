@@ -1,6 +1,7 @@
 package net.amy.amythest.datagen;
 
 import net.amy.amythest.item.ModItems;
+import net.amy.amythest.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 
@@ -20,6 +21,9 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
 
+        getOrCreateTagBuilder(ModTags.Items.AMETHYST_TRIDENT_ENCHANTABLE)
+                .add(AMETHYST_TRIDENT);
+
         getOrCreateTagBuilder(ItemTags.TRIDENT_ENCHANTABLE)
                 .add(AMETHYST_TRIDENT);
 
@@ -28,6 +32,15 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(AMETHYST_AXE)
                 .add(AMETHYST_SCYTHE)
                 .add(AMETHYST_GLAIVE);
+
+        getOrCreateTagBuilder(ItemTags.HEAD_ARMOR_ENCHANTABLE)
+                .add(AMETHYST_HELMET);
+        getOrCreateTagBuilder(ItemTags.CHEST_ARMOR_ENCHANTABLE)
+                .add(AMETHYST_HELMET);
+        getOrCreateTagBuilder(ItemTags.LEG_ARMOR_ENCHANTABLE)
+                .add(AMETHYST_HELMET);
+        getOrCreateTagBuilder(ItemTags.FOOT_ARMOR_ENCHANTABLE)
+                .add(AMETHYST_HELMET);
 
         getOrCreateTagBuilder(ItemTags.SWORDS)
                 .add(AMETHYST_SWORD);

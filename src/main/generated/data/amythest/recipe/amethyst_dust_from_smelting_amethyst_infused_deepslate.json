@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 20,
+  "experience": 2.0,
+  "group": "amethyst_dust",
+  "ingredient": {
+    "item": "amythest:amethyst_infused_deepslate"
+  },
+  "result": {
+    "id": "amythest:amethyst_dust"
+  }
+}

@@ -2,6 +2,7 @@ package net.amy.amythest.enchantment;
 
 import net.amy.amythest.AmysAmethyst;
 
+import net.amy.amythest.util.ModTags;
 import net.minecraft.component.EnchantmentEffectComponentTypes;
 import net.minecraft.component.type.AttributeModifierSlot;
 import net.minecraft.enchantment.Enchantment;
@@ -33,7 +34,7 @@ public class ModEnchantments {
         var items = registerable.getRegistryLookup(RegistryKeys.ITEM);
 
         register(registerable, STRIKING, new Enchantment.Builder(Enchantment.definition(
-                items.getOrThrow(ItemTags.TRIDENT_ENCHANTABLE),
+                items.getOrThrow(ModTags.Items.AMETHYST_TRIDENT_ENCHANTABLE),
                 2,
                 5,
                 Enchantment.leveledCost(1, 8),
@@ -43,10 +44,7 @@ public class ModEnchantments {
                 .exclusiveSet(enchantments.getOrThrow(EnchantmentTags.DAMAGE_EXCLUSIVE_SET))
                 .addEffect(
                         EnchantmentEffectComponentTypes.DAMAGE,
-                        new AddEnchantmentEffect(EnchantmentLevelBasedValue.linear(2.5F)),
-                        EntityPropertiesLootCondition.builder(
-                                LootContext.EntityTarget.THIS, EntityPredicate.Builder.create().type(EntityTypePredicate.create(EntityTypeTags.SENSITIVE_TO_IMPALING)).build()
-                        )
+                        new AddEnchantmentEffect(EnchantmentLevelBasedValue.linear(2.5F))
                 ));
 
 

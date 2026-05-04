@@ -13,8 +13,6 @@ public class ModTags {
         public static final TagKey<Block> NEEDS_AMETHYST_TOOL = createTag("needs_amethyst_tool");
         public static final TagKey<Block> INCORRECT_FOR_AMETHYST_TOOL = createTag("incorrect_for_amethyst_tool");
 
-        public static final TagKey<Block> NEEDS_RESIN_TOOL = createTag("needs_resin_tool");
-        public static final TagKey<Block> INCORRECT_FOR_RESIN_TOOL = createTag("incorrect_for_resin_tool");
 
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(AmysAmethyst.MOD_ID, name));
@@ -22,7 +20,7 @@ public class ModTags {
     }
 
     public static class Items {
-        public static final TagKey<Item> SCYTHE_ENCHANTABLE = createTag("scythe_enchantable");
+        public static final TagKey<Item> AMETHYST_TRIDENT_ENCHANTABLE = createTag("amethyst_trident_enchantable");
 
 
         private static TagKey<Item> createTag(String name) {
